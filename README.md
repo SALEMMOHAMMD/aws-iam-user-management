@@ -61,6 +61,10 @@ Successfully completed the AWS IAM hands-on lab and achieved a score of **40/40*
 
 ## Skills Demonstrated
 AWS IAM | Cloud Security | Access Management | AWS EC2 | Amazon S3 | Troubleshooting
+## Lab Results
 
+Successfully completed the AWS IAM Lab with a score of 40/40.
+
+![Lab Result](Result.png)
 ## Disclaimer
 This project was completed in a controlled AWS lab environment. No production resources or credentials are included.
