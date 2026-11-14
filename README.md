@@ -66,5 +66,25 @@ AWS IAM | Cloud Security | Access Management | AWS EC2 | Amazon S3 | Troubleshoo
 Successfully completed the AWS IAM Lab with a score of 40/40.
 
 ![Lab Result](Result.png)
+
+flowchart TB
+    A["AWS IAM"]
+
+    A --> U1["user-1"]
+    A --> U2["user-2"]
+    A --> U3["user-3"]
+
+    U1 --> G1["S3-Support"]
+    U2 --> G2["EC2-Support"]
+    U3 --> G3["EC2-Admin"]
+
+    G1 --> P1["AmazonS3ReadOnlyAccess"]
+    G2 --> P2["AmazonEC2ReadOnlyAccess"]
+    G3 --> P3["Inline Policy"]
+
+    P1 --> S3["Amazon S3"]
+    P2 --> EC2["Amazon EC2 - Read Only"]
+    P3 --> EC2A["Amazon EC2 - Describe / Start / Stop"]
+
 ## Disclaimer
 This project was completed in a controlled AWS lab environment. No production resources or credentials are included.
